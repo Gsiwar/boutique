@@ -1,4 +1,4 @@
-package controllers;
+package controller;
 
 import java.util.List;
 
@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import models.Article;
-import services.ArticleService;
+import model.Article;
+import service.ArticleService;
 
 
 
-public class ArticleControllers {
+public class ArticleController {
 
 	
 	

@@ -1,4 +1,4 @@
-package models;
+package model;
 
 public class Article {
 	
@@ -6,7 +6,6 @@ public class Article {
 	private String nom;
 	private String type;
 	private int pt;
-	private int p2t;
 	
 	public Article() {
 		super();
